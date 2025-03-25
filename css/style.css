@@ -1,0 +1,40 @@
+/* Makes your page look clean */
+body {
+    font-family: Arial, sans-serif; /* Nice readable font */
+    line-height: 1.6; /* Spacing between lines */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Dark gray text */
+}
+
+/* Styles your navigation menu */
+nav {
+    background: #2c3e50; /* Dark blue background */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Changes link color when mouse hovers */
+nav a:hover {
+    color: #f1c40f; /* Yellow color on hover */
+}
+
+/* Styles all headings */
+h1, h2, h3 {
+    color: #2c3e50; /* Same blue as navigation */
+}
+
+/* Footer styling */
+footer {
+    background: #ecf0f1; /* Light gray */
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
